@@ -1,0 +1,63 @@
+@media screen and (max-width:1500px){
+    main div.container div.subcontainer div.left{
+        width: 60vw;
+    }
+
+    main div.container div.subcontainer div.left > div{
+        width: 60vw;
+    }
+
+    main div.container div.subcontainer div.left div img{
+        width: 60vw;
+    }
+    
+    main div.container div.subcontainer{
+        width: 95vw;
+    }
+
+    main div.container div.subcontainer div.right{
+        width: 30vw;
+    }
+
+    main div.container div.subcontainer div.right > div > img{
+        width: 30vw;
+     }
+    
+}
+
+@media screen and (max-width:940px){
+    main div.container div.subcontainer{
+        flex-direction: column;
+    }
+
+    main div.container div.subcontainer div.left{
+        width: 94.6vw;
+    }
+
+    main div.container div.subcontainer div.left > div{
+        margin:10px 0px;
+    }
+
+    main div.container div.subcontainer div.left div img{
+        width: 93vw;
+    }
+
+    main div.container div.subcontainer div.left > div{
+        width: 93vw;
+    }
+
+    main div.container div.subcontainer div.right{
+        width: 93vw;
+        margin-left: 6px;
+    }
+
+    main div.container div.subcontainer div.right > div > img{
+        width: 93vw;
+     }
+}
+
+@media screen and (max-width:330px){
+    header nav > div span:nth-child(2){
+        padding: 2px 10px;
+    }
+}
