@@ -58,7 +58,7 @@
 
 @media screen and (max-width:500px){
     main div.container div.subcontainer div.left > div{
-        box-shadow: none;
+        box-shadow: 1px 1px 5px rgb(121, 121, 121);
     }
 }
 
